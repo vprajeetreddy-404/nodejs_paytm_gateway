@@ -7,9 +7,9 @@
     "test": "test",
     "start": "node server.js"
   },
-  "author": "Aditya Raval",
-  "homepage": "https://github.com/adityaraval/paytm-integration-nodejs-express#readme",
-  "license": "MIT",
+  "author": "Prajeet Reddy",
+  "homepage": "",
+  "license": "",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
