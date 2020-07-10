@@ -28,7 +28,7 @@ app.get("/paywithpaytm", (req, res) => {
         success => {
             res.render("paytmRedirect.ejs", {
                 resultData: success,
-                paytmFinalUrl: 'https://securegw-stage.paytm.in/order/process
+                paytmFinalUrl: process.env.PAYTM_FINAL_URL
             });
         },
         error => {
