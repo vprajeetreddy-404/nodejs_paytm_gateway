@@ -1,0 +1,22 @@
+{
+  "name": "paytm-integration",
+  "version": "1.0.0",
+  "description": "Paytm Integration",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Aditya Raval",
+  "homepage": "https://github.com/adityaraval/paytm-integration-nodejs-express#readme",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^2.0.4",
+    "shortid": "^2.2.15"
+  }
+}

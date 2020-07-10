@@ -1,0 +1,124 @@
+
+body
+{
+  font-family: 'Montserrat-Black', sans-serif ;
+
+}
+
+
+#title
+{
+    background-color: #FF6A6A;
+    color: white;
+}
+
+.container-fluid
+{
+  padding: 3% 14% 6%;
+}
+
+h1
+{
+  font-family: 'Montserrat-Black', sans-serif ;
+  font-size: 1rem;
+  line-height:1.5;
+  font-weight: bold;
+
+}
+
+h2{
+  font-family: 'Montserrat-Bold', sans-serif ;
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+
+h3{
+  font-family: 'Montserrat-Bold', sans-serif ;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+p{
+  color: grey;
+}
+
+.navbar{
+  padding: 0 0 4.5em;
+}
+
+.navbar-brand
+{
+  font-family: Helvetica;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat-light', sans-serif ;
+  font-size: 1.2rem
+
+}
+
+.button{
+  margin:  5% 3% 5% 0;
+}
+
+@media (max-width: 1000px) {
+
+  #title{
+    text-align: center;
+
+      }
+
+  #aba{
+    position: static;
+    transform: rotate(0);
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.title-image{
+  width: 80%;
+  position: absolute;
+  right: 5%;
+}
+
+
+#about{
+  text-align: center;
+  background-color: #ef8172;
+    color: #fff;
+
+}
+.mypicpad{
+  padding: 7% 15%;
+}
+
+.mypic{
+  margin: 20px;
+  width:10%;
+  border-radius: 100%;
+}
+
+
+
+#footer{
+
+  text-align:center;
+
+}
+
+.social{
+  margin: 10px;
+}
